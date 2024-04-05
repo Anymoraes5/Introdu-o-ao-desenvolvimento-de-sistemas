@@ -2,8 +2,8 @@
     Projeto: Venus
     email: moraesany44@gmail.com
     Desenvolvedor: Ana Caroline Santana
-    Versão 1.0
-    Data 22/03/2024
+    Versão 2.0
+    Data 31/03/2024
 
 */
 /* reset css*/
@@ -16,6 +16,72 @@ body {
     background-color:#2F2B21;
     font-family: Bacasime Antique, Arial, Helvetica, sans-serif;
     color : #FDFCE9;
+    
+}
+.search-box{ /* barras de pesquisa*/
+    position:absolute;
+    left: 30%;
+    top: 6%;
+    background-color: #AD3135;
+    height: 50px;
+    border-radius: 30px;
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-text{
+    background: none;
+    border: 0;
+    outline: 0;
+
+    padding: 0;
+    font-size: 28px;
+    color: #FDFCE9;
+    transition: 0.4s;
+    width: 0;
+}
+.search-btm{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+
+}
+.search-box:hover > .search-text{
+    width: 400px;
+    padding-left: 20px;
+}
+.search-box:hover > .search-btm{
+    background: #AD3135 ;
+    width: 40px;
+    height: 40px;
+    
+    
+}
+.search-box:hover > .search-btm .lupaVermelha {
+    display: none;
+}
+.search-box:hover > .search-btm .lupaBranca {
+    display: block;
+}
+::-webkit-input-placeholder{
+    font-size: 28px;
+    font-family: Bacasime Antique, Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.lupaVermelha{
+    display: none;
+} 
+/* fim da configuração barra de pesquisa */
+h1.sign-in{
+    display:flex;
+    justify-content: left;
 }
 .header{
     
@@ -29,33 +95,75 @@ body {
     justify-content: center;
     
 }
+h2.space{ /* espaço entre o catalo e o banner*/
+    height: 20px;
+}
+
 h1.title{
-    text-align: center;
     font-weight: bold;
+    font-size: 52px;
+    background-color: #AD3135;
+    height: 60px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+}
+h3.space2{
+    height: 20px;
 }
 .services{
+    
+}
+.cards{
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+h2.spaceteam1{
+    height: 20px;
+}
+h1.team{
+    font-weight: bold;
+    font-size: 52px;
+    background-color: #AD3135;
+    height: 60px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+h3.spaceteam2{
+    height: 20px;
 }
 .members{
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
+    font-size: 22px;
 }
-h1.team{
-    text-align: center;
-    font-weight: bold;
-}
-.team{
-    
-}
+
 .location{
-    
+    display:flex;
+    justify-content: center; 
 }
+.map{
+    display: flex;
+    justify-content: center;
+}
+
 .copyright{
     display: flex;
     justify-content: center;
 }
+.socialmedia{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 .footer{
 }
