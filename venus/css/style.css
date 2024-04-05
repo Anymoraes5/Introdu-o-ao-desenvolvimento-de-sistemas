@@ -4,6 +4,8 @@
     Desenvolvedor: Ana Caroline Santana
     Versão 2.0
     Data 31/03/2024
+    version 2.1
+    Data: 05/04/24
 
 */
 /* reset css*/
@@ -17,6 +19,16 @@ body {
     font-family: Bacasime Antique, Arial, Helvetica, sans-serif;
     color : #FDFCE9;
     
+}
+.contant{
+    height: 520px;
+    width: 935px;
+    border-radius: 30px;
+    overflow:hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .search-box{ /* barras de pesquisa*/
     position:absolute;
