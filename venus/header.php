@@ -14,5 +14,5 @@
             <li class="link-3"><a href="servicos.php"><img src="" alt="">Novidades</a></li>
             <li class="link-5"><a href="galeria.php"><img src="" alt="">Promoção</a></li>
             <li class="link-4"><a href="contato.php"><img src="" alt="">Contato</a></li>
-            <li class="link-4"><a href="colecoes.php"><img src="" alt="">Coleções</a></li>
+            <li class="link-6"><a href="colecoes.php"><img src="" alt="">Coleções</a></li>
         </ul>
