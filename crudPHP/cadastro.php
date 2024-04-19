@@ -14,10 +14,10 @@
 
 
     
-    // <!-- copia do banco de dados -->
-    $sql = "INSERT INTO sge_alunos ( nome_aluno, email_aluno, telefone_aluno) // a ordem importa 
-                VALUES (NULL, '$nome_aluno', '$email_aluno', '$telefone_aluno')"; // a ordem importa (precisa estra em apostrofe)
-
+    // a ordem importa 
+    // a ordem importa (precisa estra em apostrofe)
+    $sql = "INSERT INTO sge_alunos ( nome_aluno, email_aluno, telefone_aluno) 
+                VALUES ('$nome_aluno', '$email_aluno', '$telefone_aluno')";
     //função para cadastrar o banco de dados 
     //função mysql_query necessita de parâmetros
     //1º conexao com o banco de dados 

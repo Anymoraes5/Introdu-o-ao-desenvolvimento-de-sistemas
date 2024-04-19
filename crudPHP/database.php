@@ -6,7 +6,7 @@
     $database_name = "sge";
 
     //declaração de constantes para conectar ao banco de dados 
-    define ('SERVER_HOST','localhost');
+    define ('SERVER_HOST','localhost:3307');
     define ('SERVER_USER','root');
     define ('SERVER_PASSWORD','');
     define ('DATABASE_NAME','sge');
