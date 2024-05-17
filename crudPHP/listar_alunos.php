@@ -66,12 +66,15 @@
                     <td>
                         <?php echo $dados_bd['telefone_aluno']; ?>
                     </td>
-                    <td><a href="#"><img src="images\icons8-atualizar-100.png" alt="atualizar"></a></td>
-                    <td><a href="#"><img src="images\icons8-remover-100.png" alt="deletar"></a></td>
+                    <td><a href="form_atualizar_cad_aluno.php?id_aluno=<?php echo $dados_bd['id_aluno'];?>"><img src="images\icons8-atualizar-100.png" alt="atualizar" width="50px"></a></td>
+                    <td><a href="excluir_cadastro_aluno.php?id_aluno=<?php echo $dados_bd['id_aluno'];?>"><img src="images\icons8-remover-100.png" alt="deletar" width="50px" ></a></td>
                 </tr>
             <?php endwhile; ?>
         </tbody>
     </table>
+    <div class="d-grid">
+        <a href="index.php" class="btn btn-warning"> Voltar </a>
+    </div>
 
     </div>
 </div>
