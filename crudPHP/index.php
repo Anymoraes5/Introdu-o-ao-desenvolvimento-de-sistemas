@@ -1,9 +1,10 @@
 <?php include 'header.php'; ?>
 
-<div class="d-grid">
+<div class="d-grid" id="botao">
   
-  <a href="form_cad_aluno.php"class="btn btn-primary" >Cadastrar aluno</a> <br>
-  <a href="listar_alunos.php"class="btn btn-primary">listar alunos</a>
+  <a href="form_login_sge.php"  class="btn btn-primary" id="botao" > Acessar sua conta  </a> <br> 
+  <a href="form_cadastro_sge.php"class="btn btn-primary"> Cadastre-se </a>
+  
 </div>
 
 

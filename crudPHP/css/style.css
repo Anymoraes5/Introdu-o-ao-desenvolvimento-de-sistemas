@@ -1,5 +1,18 @@
 
-body.margin{
+body.style{
     margin: 2%;
     text-align: center;
+    background-color: gray;
+    color: antiquewhite;
 }
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tabela{
+    color: antiquewhite;
+}
+
