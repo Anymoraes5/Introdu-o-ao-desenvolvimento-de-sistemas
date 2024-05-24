@@ -10,9 +10,9 @@
     //verificar se o perfil de acesso ao sistema
     if($usuario['perfil'] != "admin"){ ?>
         <!-- conteudo em html perfil aluno -->
-        <div class="d-grid">
+        <div class="botao" align="center">
             
-            <a href="listar_alunos.php"class="btn btn-primary"> 𝐋𝐢𝐬𝐭𝐚𝐫 𝐚𝐥𝐮𝐧𝐨𝐬 </a>
+            <a href="listar_alunos.php"class="btn btn-primary"> Listar aluno </a>
         </div>
         <!-- fim do conteudo em html -->
     <?php
@@ -24,9 +24,9 @@
         <hr>
         <p>Você a permissão de acesso: <?php echo $usuario['perfil'];?></p>
         <h3>Seja Bem-viado: <?php echo $usuario['login'];?> </h3>
-        <div class="d-grid">
-            <a href="form_cad_aluno.php"  class="btn btn-primary" > 𝐂𝐚𝐝𝐚𝐬𝐭𝐫𝐚𝐫 𝐚𝐥𝐮𝐧𝐨 </a> <br>
-            <a href="listar_alunos.php"class="btn btn-primary"> 𝐋𝐢𝐬𝐭𝐚𝐫 𝐚𝐥𝐮𝐧𝐨𝐬 </a>
+        <div class= "botao" align="center">
+            <a href="form_cad_aluno.php"  class="btn btn-primary" style="width: 20cm;"> Cadastrar aluno </a> <br><br>
+            <a href="listar_alunos.php"class="btn btn-primary" style="width: 20cm;"> Listar alunos </a>
         </div>
 <?php 
     }

@@ -16,7 +16,10 @@
     <input type="text" name="telefone_aluno" id="telefone_aluno" placeholder="Informe seu telefone ou celular" class="form-control"><br>
 </div>
 <div class="d-grid">
-    <input type="submit" value="Cadastrar aluno"class="btn btn-primary">
+    <input type="submit" value="Cadastrar aluno"class="btn btn-primary" <?php 
+    if ()
+    ?>
+    >
 </div>
 </form> <br>
 

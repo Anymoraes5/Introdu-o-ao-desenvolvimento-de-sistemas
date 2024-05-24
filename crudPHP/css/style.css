@@ -2,17 +2,38 @@
 body.style{
     margin: 2%;
     text-align: center;
-    background-color: gray;
+    background-color: rgb(48, 77, 171);
     color: antiquewhite;
 }
+/* #campo {
+    width: 20em;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+} */
+.texto{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+.botao{
+    
+    
+    
 
+    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+.validacao{
+    display: flex;
+    justify-content: space-evenly;
+}
 footer{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#tabela{
-    color: antiquewhite;
+tr.tabela{
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
 }
-

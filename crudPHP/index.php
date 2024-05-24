@@ -1,9 +1,9 @@
 <?php include 'header.php'; ?>
 
-<div class="d-grid" id="botao">
+<div >
   
-  <a href="form_login_sge.php"  class="btn btn-primary" id="botao" > Acessar sua conta  </a> <br> 
-  <a href="form_cadastro_sge.php"class="btn btn-primary"> Cadastre-se </a>
+  <a href="form_login_sge.php"  class="btn btn-primary"  > Acessar sua conta  </a> <br> 
+  <a href="form_cadastro_sge.php"class="btn btn-primary"  > Cadastre-se </a>
   
 </div>
 
